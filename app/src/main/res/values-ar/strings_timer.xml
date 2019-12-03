@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="msg_invalid_viewing_time">عذرًا، يمكنك تشغيل مقاطع الفيديو فقط من %1$s إلى %2$s.</string>
+    <string name="msg_exceeded_session_viewing_time">عفوًا، لقد تجاوزت فترة المشاهدة المسموح بها للجلسة الواحدة. يمكنك مشاهدة مقاطع الفيديو مرة أخرى خلال %1$d دقيقة.</string>
+
+    <string name="msg_exceeded_daily_viewing_time">عفوًا، لقد تجاوزت فترة المشاهدة اليومية المسموح بها.</string>
+
+    <string name="lbl_viewing_periods_dialog_description">يمكن للأطفال مشاهدة مقاطع الفيديو فقط في فترات محددة يتم التحكم فيها بواسطة أوقات البداية والنهاية اليومية وكذلك ضمن فترات العرض القصوى اليومية أو للجلسة الواحدة. عند انقضاء فترة الجلسة، يتم بدء فترة جلسة جديدة بعد إنقضاء الوقت المحدد.</string>
+
+    <string name="lbl_daily_viewing_start_time">المشاهدة تبدأ في:</string>
+    <string name="lbl_daily_viewing_end_time">المشاهدة تنتهي في:</string>
+    <string name="lbl_maximum_daily_viewing_period">المشاهدة اليومية (دقيقة):</string>
+    <string name="lbl_maximum_session_viewing_period">المشاهدة للجلسة (دقيقة):</string>
+    <string name="lbl_session_resets_after_period">إعادة بدء الجلسة بعد (دقيقة):</string>
+
+    <string name="lbl_viewing_periods_settings_modification_warning">ملاحظة: سيؤدي تغيير إعدادات "فترات المشاهدة" إلى بدء إحتساب فترات المشاهدة من جديد.</string>
+
+</resources>

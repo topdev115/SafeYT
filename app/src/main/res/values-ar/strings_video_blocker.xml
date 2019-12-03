@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="blocked_videos">مقاطع الفيديو المحظورة</string>
+	<string name="no_videos_blocked">لم يتم حظر أي مقاطع فيديو أو تصفيتها. هل تريد ضبط حظر القيديو؟</string>
+
+	<string name="configure">تهيئة</string>
+	<string name="block_channel">حظر قناة</string>
+	<string name="channel_blacklisted">تم إضافة القناة للقائمة السوداء. نرجو التحديث.</string>
+	<string name="channel_blacklist_error">فشل إضافة القناة للقائمة السوداء.</string>
+	<string name="channel_unwhitelist_error">فشل إزالة القناة من القائمة البيضاء.</string>
+	<string name="dislikes">%d%% كراهية</string>
+</resources>

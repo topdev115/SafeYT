@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grid_view_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/public_list_header"
+            android:visibility="gone"
+            android:paddingTop="@dimen/image_view_padding_top_layout"
+            android:paddingBottom="@dimen/image_view_padding_bottom_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/image_view_padding_side_layout"
+            android:paddingStart="@dimen/image_view_padding_side_layout"
+            android:paddingRight="@dimen/image_view_padding_side_layout"
+            android:paddingEnd="@dimen/image_view_padding_side_layout"
+            android:layout_marginLeft="@dimen/image_view_margin_side_layout"
+            android:layout_marginStart="@dimen/image_view_margin_side_layout"
+            android:layout_marginRight="@dimen/image_view_margin_side_layout"
+            android:layout_marginEnd="@dimen/image_view_margin_side_layout"
+            android:background="@color/image_view_background_color_layout"
+            android:orientation="horizontal">
+
+            <!-- LIST TYPE TEXT VIEW -->
+            <TextView
+                android:id="@+id/public_list_label_text_view"
+                android:padding="@dimen/image_view_padding_label"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:layout_gravity="start"
+                android:layout_centerVertical="true"
+                android:textSize="16dp"
+                style="@style/PlayListHeaderTextView"
+                android:text="@string/public_list_list_type"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:orientation="horizontal">
+
+                    <!-- SHOW\HIDE PUBLIC LIST BUTTON -->
+                    <ImageView
+                        android:id="@+id/public_list_show_hide_image"
+                        android:layout_width="@dimen/image_view_width"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:adjustViewBounds="true"
+                        android:layout_gravity="center_horizontal"
+                        android:paddingLeft="@dimen/image_view_padding_side"
+                        android:paddingStart="@dimen/image_view_padding_side"
+                        android:paddingRight="@dimen/image_view_padding_side"
+                        android:paddingEnd="@dimen/image_view_padding_side"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ic_show_black"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+        <include
+            layout="@layout/videos_gridview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+</FrameLayout>

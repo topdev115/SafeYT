@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="@color/dialog_backgound"
+		android:orientation="vertical">
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="end"
+			android:background="@color/dialog_backgound"
+			android:orientation="horizontal">
+
+			<android.support.design.button.MaterialButton
+				android:id="@+id/select_all_button"
+				style="@style/Widget.AppCompat.Button.Borderless"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/select_all"
+				android:textColor="@color/colorAccent"
+				app:backgroundTint="@android:color/white"
+				android:layout_marginRight="@dimen/horizontal_margin"
+				android:layout_marginEnd="@dimen/horizontal_margin"
+				app:cornerRadius="8dp"
+				app:strokeColor="@color/colorAccent"
+				app:strokeWidth="2dp" />
+
+			<android.support.design.button.MaterialButton
+				android:id="@+id/select_none_button"
+				style="@style/Widget.AppCompat.Button.Borderless"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/select_none"
+				android:textColor="@color/colorAccent"
+				app:backgroundTint="@android:color/white"
+				android:layout_marginRight="@dimen/horizontal_margin"
+				android:layout_marginEnd="@dimen/horizontal_margin"
+				app:cornerRadius="8dp"
+				app:strokeColor="@color/colorAccent"
+				app:strokeWidth="2dp" />
+
+		</LinearLayout>
+
+		<android.support.v7.widget.RecyclerView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/channel_list"/>
+	</LinearLayout>
+</ScrollView>

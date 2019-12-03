@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bookmarks">المفضلات</string>
+
+	<string name="bookmark">أضف إلى المفضلات</string>
+	<string name="video_bookmarked">تمت إضافة الفيديو إلى المفضلات.</string>
+	<string name="video_bookmarked_error">تعذر إضافة الفيديو إلى المفضلات.</string>
+
+	<string name="unbookmark">إزالة من المفضلات</string>
+	<string name="video_unbookmarked">تمت إزالة الفيديو من المفضلات.</string>
+	<string name="video_unbookmarked_error">تعذر إزالة الفيديو من المفضلات.</string>
+
+	<string name="no_bookmarked_videos_text">لم تقم بإضافة أي مقاطع فيديو إلى المفضلات حتى الآن.\n\n بمجرد قيامك بذلك، ستظهر هنا.</string>
+</resources>

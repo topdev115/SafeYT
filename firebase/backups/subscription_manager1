@@ -1,0 +1,11 @@
+<opml version="1.1">
+	<body>
+		<outline text="YouTube Subscriptions" title="YouTube Subscriptions">
+			<outline text="Gabriel's Lab" title="Gabriel's Lab" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCq2f81GeIbqOz91ZUEf6-kA" />
+			<outline text="Android Developers" title="Android Developers" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCVHFbqXqoYvEWM1Ddxl0QDg" />
+			<outline text="David Tran" title="David Tran" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCvPFGq6luCqAVGiFpzTvkIA" />
+			<outline text="Joe Show - جو شو" title="Joe Show - جو شو" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCVlAsbQEG1yvoAYzt1TEo0Q" />
+			<outline text="Academind" title="Academind" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCSJbGtTlrDami-tDGPUV9-w" />
+		</outline>
+	</body>
+</opml>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="download">حمل الفيديو</string>
+	<string name="downloads">مقاطع الفيديو المحملة</string>
+	<string name="warning_mobile_network_download">جهازك غير متصل بشبكة Wi-Fi. لتجنب تكاليف إضافية في استخدام البيانات، يوصى بالاتصال بشبكة Wi-Fi. هل تريد تحميل الفيديو على أي حال؟</string>
+	<string name="download_video">حمل الفيديو</string>
+	<string name="starting_video_download">تحميل \'%s\'…</string>
+	<string name="video_download_stream_error">تعذر تحميل \'%s\'.</string>
+	<string name="delete_download">إزالة الفيديو المحمل</string>
+	<string name="video_downloaded">\'%s\' فيديو تم تحميلها.</string>
+	<string name="no_downloaded_videos_text">لم تقم بتحميل أي مقاطع فيديو حتى الآن.\n\n بمجرد قيامك بذلك، ستظهر هنا.</string>
+	<string name="playing_video_file_missing">لم يتم إيجاد الفيديو المحمل. سيتم التشغيل عن بعد.</string>
+	<string name="external_storage_not_available">يتعذر تنزيل الملف نظرًا لعدم توفر وحدة التخزين الخارجية.</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="privatelists">Private Lists</string>
+
+    <string name="privatelist">Private List</string>
+    <string name="allow_button">Allow Channel</string>
+    <string name="dont_allow_button">Don\'t Allow Channel</string>
+    <string name="video_privatelisted">Video private listed</string>
+    <string name="video_privatelisted_error">Could not private list the video.</string>
+    <string name="video_already_privatelisted">Video already in Private list.</string>
+
+    <string name="private_list_created_video_privatelisted">Private List created and video added to it.</string>
+    <string name="private_list_created_video_privatelisted_error">Could not create Private List and add video to it.</string>
+
+    <string name="unprivatelist">Unprivate list</string>
+    <string name="video_unprivatelisted">Video unprivate listed</string>
+    <string name="video_unprivatelisted_error">Could not unprivate list the video.</string>
+
+    <string name="no_private_lists_added_text">You haven\'t added any Private List yet.\n\nOnce you do, they will show up here.</string>
+
+    <string name="select_private_list">Select a Private List</string>
+
+    <string name="new_private_list">New Private List</string>
+
+    <string name="create_private_list">Create Private List</string>
+
+    <string name="private_list_list_type">Private List</string>
+
+    <string name="private_list_show_button">Show</string>
+    <string name="private_list_hide_button">Hide</string>
+    <string name="private_list_delete_button">Delete</string>
+    <string name="private_list_download_all_button">Download All</string>
+
+    <string name="delete_private_list">Delete Private List</string>
+
+    <string name="private_list_visible_to_kids_msg">Private List is now visible to kids.</string>
+    <string name="private_list_not_visible_to_kids_msg">Private List is now NOT visible to kids.</string>
+
+    <string name="private_list_confirm_delete_msg">This will permanently delete the Private List and all its content. Do you wish to proceed?</string>
+
+</resources>

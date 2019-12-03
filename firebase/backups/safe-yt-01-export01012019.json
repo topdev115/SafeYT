@@ -1,0 +1,202 @@
+{
+  "common-lists" : {
+    "common-list-01" : {
+      "Name" : "Learning",
+      "VideoCount" : 2,
+      "videos" : {
+        "video-01" : true,
+        "video-03" : true
+      }
+    },
+    "common-list-02" : {
+      "Name" : "Music",
+      "VideoCount" : 1,
+      "videos" : {
+        "video-02" : true
+      }
+    },
+    "subscription_manager1" : {
+      "Name" : "الأخبار"
+    },
+    "subscription_manager2" : {
+      "Name" : "الرياضة"
+    },
+    "subscription_manager3" : {
+      "Name" : "الأغاني"
+    }
+  },
+  "devices" : {
+    "device-01" : {
+      "Linked" : true,
+      "Passcode" : 1234,
+      "Profile" : "profile-01",
+      "User" : "user-01"
+    },
+    "device-02" : {
+      "Linked" : false,
+      "ListCount" : 2,
+      "Passcode" : 1221,
+      "lists" : {
+        "common-list-01" : true,
+        "common-list-02" : true
+      }
+    }
+  },
+  "public-play-lists" : {
+    "PLH9OQZVrsslGb8_CSLuYClUt7kjiQruLL" : {
+      "title" : "برمجة الآيفون"
+    },
+    "PLtNzZ-kyZQQBgqAZU3-zcg8pINtDX6-s6" : {
+      "title" : "الأمير تميم البرغوثي"
+    },
+    "PLtNzZ-kyZQQCFUdbBVusWW0jd5g9ONyFY" : {
+      "title" : "محمد مهدي الجواهري"
+    }
+  },
+  "reported" : {
+    "user-video-01" : {
+      "Description" : "Bad language",
+      "Reason" : 1,
+      "User" : "user-01"
+    },
+    "video-01" : {
+      "Description" : "Not suitable for kids",
+      "Reason" : 2,
+      "user" : "user-01"
+    }
+  },
+  "user-blocks" : {
+    "user-01" : {
+      "BlockCount" : 4,
+      "blocks" : {
+        "user-video-01" : true,
+        "user-video-02" : true,
+        "video-01" : true,
+        "video-02" : true
+      }
+    },
+    "user-02" : {
+      "BlockCount" : 3,
+      "blocks" : {
+        "user-video-03" : true,
+        "video-02" : true,
+        "video-03" : true
+      }
+    }
+  },
+  "user-custom-lists" : {
+    "user-01" : {
+      "user-custom-list-01" : {
+        "Name" : "Sports",
+        "VideoCount" : 2,
+        "videos" : {
+          "user-video-01" : true,
+          "user-video-02" : true
+        }
+      },
+      "user-custom-list-02" : {
+        "Name" : "Games",
+        "VideoCount" : 1,
+        "videos" : {
+          "user-video-02" : true
+        }
+      }
+    },
+    "user-02" : {
+      "user-custom-list-03" : {
+        "Name" : "Islam",
+        "videos" : {
+          "user-video-03" : true,
+          "user-video-04" : true
+        }
+      },
+      "user-custom-list-04" : {
+        "Name" : "Sports",
+        "videos" : {
+          "user-video-04" : true
+        }
+      }
+    }
+  },
+  "user-profiles" : {
+    "user-01" : {
+      "profile-01" : {
+        "CustomListCount" : 2,
+        "ListCount" : 2,
+        "Name" : "Rama",
+        "custom-lists" : {
+          "user-custom-list-01" : true,
+          "user-custom-list-02" : true
+        },
+        "lists" : {
+          "common-list-01" : true,
+          "common-list-02" : true
+        }
+      },
+      "profile-02" : {
+        "CustomListCount" : 1,
+        "ListCount" : 1,
+        "Name" : "Farah",
+        "custom-lists" : {
+          "user-custom-list-02" : true
+        },
+        "lists" : {
+          "common-list-02" : true
+        }
+      }
+    },
+    "user-02" : {
+      "profile-03" : {
+        "CustomListCount" : 2,
+        "ListCount" : 1,
+        "Name" : "Noor",
+        "custom-lists" : {
+          "user-custom-list-03" : true,
+          "user-custom-list-04" : true
+        },
+        "lists" : {
+          "common-list-02" : true
+        }
+      }
+    }
+  },
+  "user-videos" : {
+    "user-01" : {
+      "user-video-01" : {
+        "Name" : "Barby"
+      },
+      "user-video-02" : {
+        "Name" : "Sanafer"
+      }
+    },
+    "user-02" : {
+      "user-video-03" : {
+        "Name" : "Senan"
+      },
+      "user-video-04" : {
+        "Name" : "Adnan wa Lina"
+      }
+    }
+  },
+  "users" : {
+    "user-01" : {
+      "Name" : "Shadi",
+      "Passcode" : 1234
+    },
+    "user-02" : {
+      "Name" : "Zaid",
+      "Passcode" : 4321
+    }
+  },
+  "videos" : {
+    "video-01" : {
+      "Name" : "Haydee"
+    },
+    "video-02" : {
+      "Name" : "Oscar"
+    },
+    "video-03" : {
+      "Name" : "Joungar"
+    }
+  }
+}

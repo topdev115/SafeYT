@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="thumbnail">صورة مصغرة</string>
+	<string name="view_thumbnail">عرض الصورة المصغرة</string>
+	<string name="thumbnail_downloaded">تم تنزيل الصورة المصغرة.</string>
+	<string name="thumbnail_download_error">فشل تنزيل الصورة المصغرة.</string>
+</resources>

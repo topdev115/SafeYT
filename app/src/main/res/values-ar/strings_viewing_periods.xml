@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+
+<!--
+	٠	0
+	١	1
+	٢	2
+	٣	3
+	٤	4
+	٥	5
+	٦	6
+	٧	7
+	٨	8
+	٩	9
+-->	
+	<!-- DON'T FORGET TO UPDATE THE TRANSLATION TO HINDI NUMBERS -->
+	<string-array name="viewing_periods_daily_start_time">
+		<!-- <item>٠٠:٠٠</item>   For testing only -->
+		<!-- <item>٠١:٠٠</item>  For testing only -->
+		<!-- <item>٠٢:٠٠</item>  For testing only -->
+		<!-- <item>٠٣:٠٠</item>  For testing only -->
+		<!-- <item>٠٤:٠٠</item>  For testing only -->
+		<!-- <item>٠٥:٠٠</item>  For testing only -->
+		<item>٠٦:٠٠</item>
+		<item>٠٧:٠٠</item>
+		<item>٠٨:٠٠</item>
+		<item>٠٩:٠٠</item>
+		<item>١٠:٠٠</item>
+		<item>١١:٠٠</item>
+		<item>١٢:٠٠</item>
+		<item>١٣:٠٠</item>
+		<item>١٤:٠٠</item>
+		<item>١٥:٠٠</item>
+		<item>١٦:٠٠</item>
+		<item>١٧:٠٠</item>
+		<item>١٨:٠٠</item>
+		<item>١٩:٠٠</item>
+		<item>٢٠:٠٠</item>
+		<!-- <item>٢١:٠٠</item> -->
+		<!-- <item>٢٢:٠٠</item> -->
+		<!-- <item>٢٣:٠٠</item> -->
+		<!-- <item>٢٣:٥٩</item> -->
+</string-array>
+
+<!-- DON'T FORGET TO UPDATE THE TRANSLATION TO HINDI NUMBERS -->
+	<string-array name="viewing_periods_daily_end_time">
+		<!-- <item>٠٠:٠٠</item>   For testing only -->
+		<!-- <item>٠١:٠٠</item>  For testing only -->
+		<!-- <item>٠٢:٠٠</item>  For testing only -->
+		<!-- <item>٠٣:٠٠</item>  For testing only -->
+		<!-- <item>٠٤:٠٠</item>  For testing only -->
+		<!-- <item>٠٥:٠٠</item>  For testing only -->
+		<!-- <item>٠٦:٠٠</item>  For testing only -->
+		<item>٠٧:٠٠</item>
+		<item>٠٨:٠٠</item>
+		<item>٠٩:٠٠</item>
+		<item>١٠:٠٠</item>
+		<item>١١:٠٠</item>
+		<item>١٢:٠٠</item>
+		<item>١٣:٠٠</item>
+		<item>١٤:٠٠</item>
+		<item>١٥:٠٠</item>
+		<item>١٦:٠٠</item>
+		<item>١٧:٠٠</item>
+		<item>١٨:٠٠</item>
+		<item>١٩:٠٠</item>
+		<item>٢٠:٠٠</item>
+		<item>٢١:٠٠</item>
+		<!-- <item>٢٢:٠٠</item> -->
+		<!-- <item>٢٣:٠٠</item> -->
+		<!-- <item>٢٣:٥٩</item> -->
+	</string-array>
+
+	<!-- DON'T FORGET TO UPDATE THE TRANSLATION TO HINDI NUMBERS -->
+	<string-array name="viewing_periods_max_daily_period">
+		<!--<item>٢</item>       ٢ mins. For testing only -->
+		<!-- <item>٥</item>      ٥ mins. -->
+		<!-- <item>١٠</item>     ١٠ mins. -->
+		<!-- <item>١٥</item>     ١٥ mins. -->
+		<!-- <item>٢٠</item>     ٢٠ mins. -->
+		<item>٣٠</item>   		<!--  ٣٠ mins. -->
+		<!-- <item>٤٠</item>     ٤٠ mins. -->
+		<!-- <item>٥٠</item>     ٥٠ mins. -->
+		<item>٦٠</item>   		<!-- ١ hour -->
+		<!-- <item>٧٥</item>	    ١ hour ١٥ mins. -->
+		<item>٩٠</item>	  		<!-- ١ hour ٣٠ mins. -->
+		<item>١٢٠</item>  		<!-- ٢ hours -->
+		<!-- <item>١٥٠</item> 	٢ hours ٣٠ mins. -->
+		<item>١٨٠</item>  		<!-- ٣ hours -->
+		<item>٢٤٠</item>  		<!-- ٤ hours -->
+		<!-- <item>٣٠٠</item>    ٥ hours -->
+		<!-- <item>٣٦٠</item>    ٦ hours -->
+		<!-- <item>٤٢٠</item>    ٧ hours -->
+	</string-array>
+
+	<!-- DON'T FORGET TO UPDATE THE TRANSLATION TO HINDI NUMBERS -->
+	<string-array name="viewing_periods_max_session_period">
+		<!-- <item>٢</item>     ٢ mins. For testing only -->
+		<!-- <item>٥</item>     ٥ mins. -->
+		<!-- <item>١٠</item>     ١٠ mins. -->
+		<item>١٥</item>   		<!--  ١٥ mins. -->
+		<item>٢٠</item>   		<!--  ٢٠ mins. -->
+		<item>٣٠</item>   		<!--  ٣٠ mins. -->
+		<!-- <item>٤٠</item>     ٤٠ mins. -->
+		<!-- <item>٥٠</item>     ٥٠ mins. -->
+		<item>٦٠</item>   		<!-- ١ hour -->
+		<item>٧٥</item>	  		<!-- ١ hour ١٥ mins. -->
+		<!-- <item>٩٠</item>	  	١ hour ٣٠ mins. -->
+		<!-- <item>١٢٠</item>     ٢ hours -->
+		<!-- <item>١٥٠</item>     ٢ hours ٣٠ mins. -->
+		<!-- <item>١٨٠</item>     ٣ hours -->
+		<!-- <item>٢٤٠</item>     ٤ hours -->
+		<!-- <item>٣٠٠</item>     ٥ hours -->
+		<!-- <item>٣٦٠</item>     ٦ hours -->
+		<!-- <item>٤٢٠</item>     ٧ hours -->
+	</string-array>
+
+	<!-- DON'T FORGET TO UPDATE THE TRANSLATION TO HINDI NUMBERS -->
+	<string-array name="viewing_periods_session_resets_after_values_list">
+		<!-- <item>٥</item>      ٥ mins. -->
+		<!-- <item>١٠</item>     ١٠ mins. -->
+		<item>١٥</item>   		<!--  ١٥ mins. -->
+		<!-- <item>٢٠</item>     ٢٠ mins. -->
+		<item>٣٠</item>   		<!--  ٣٠ mins. -->
+		<!-- <item>٤٠</item>   	٤٠ mins. -->
+		<!-- <item>٥٠</item>     ٥٠ mins. -->
+		<item>٦٠</item>   		<!-- ١ hour -->
+		<!-- <item>٧٥</item>	  	١ hour ١٥ mins. -->
+		<item>٩٠</item>	  		<!-- ١ hour ٣٠ mins. -->
+		<item>١٢٠</item>  		<!-- ٢ hours -->
+		<!-- <item>١٥٠</item>    	٢ hours ٣٠ mins. -->
+		<item>١٨٠</item>  		<!-- ٣ hours -->
+		<item>٢٤٠</item>  		<!-- ٤ hours -->
+		<item>٣٠٠</item>  		<!-- ٥ hours -->
+		<item>٣٦٠</item>  		<!-- ٦ hours -->
+		<!-- <item>٤٢٠</item>     ٧ hours -->
+	</string-array>
+</resources>

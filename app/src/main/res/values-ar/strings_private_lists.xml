@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="privatelists">القوائم خاصة</string>
+
+    <string name="privatelist">إضف إلى قائمة خاصة</string>
+    <string name="allow_button">السماح بالقناة</string>
+    <string name="dont_allow_button">حظر القناة</string>
+    <string name="video_privatelisted">تم إضافة الفيديو للقناة الخاصة</string>
+    <string name="video_privatelisted_error">فشل إضافة الفيديو للقناة الخاصة.</string>
+    <string name="video_already_privatelisted">الفيديو موجود أصلا في القائمة الخاصة.</string>
+
+    <string name="private_list_created_video_privatelisted">تم إنشاء قائمة خاصة وإضافة فيديو إليها.</string>
+    <string name="private_list_created_video_privatelisted_error">فشل إنشاء قائمة خاصة وإضافة فيديو إليها.</string>
+
+    <string name="unprivatelist">إزالة من قائمة الخاصة</string>
+    <string name="video_unprivatelisted">تم إزالة القيديو من القائمة الخاصة.</string>
+    <string name="video_unprivatelisted_error">فشل إزالة القيديو من القائمة الخاصة.</string>
+
+    <string name="no_private_lists_added_text">لم تقم بإضافة أي قائمة خاصة حتى الآن.\n\n بمجرد قيامك بذلك، ستظهر هنا.</string>
+
+    <string name="select_private_list">اختر قائمة خاصة</string>
+
+    <string name="new_private_list">قائمة خاصة جديدة</string>
+
+    <string name="create_private_list">إنشاء قائمة خاصة</string>
+
+    <string name="private_list_list_type">قائمة خاصة</string>
+
+    <string name="private_list_show_button">أظهر</string>
+    <string name="private_list_hide_button">إخفي</string>
+    <string name="private_list_delete_button">إحذف</string>
+    <string name="private_list_download_all_button">تحميل الكل</string>
+
+    <string name="delete_private_list">حذف القائمة الخاصة</string>
+
+    <string name="private_list_visible_to_kids_msg">القائمة الخاصة الآن مرئية للأطفال.</string>
+    <string name="private_list_not_visible_to_kids_msg">القائمة الخاصة الآن غير مرئية للأطفال.</string>
+
+    <string name="private_list_confirm_delete_msg">سيؤدي هذا إلى حذف القائمة الخاصة وجميع محتواها نهائيًا. هل ترغب في المتابعة؟</string>
+
+</resources>

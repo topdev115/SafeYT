@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/grid_view_background">
+
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+
+        <LinearLayout
+			android:id="@+id/public_list_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+			android:paddingTop="@dimen/image_view_padding_top_layout"
+			android:paddingBottom="@dimen/image_view_padding_bottom_layout"
+			android:paddingLeft="@dimen/image_view_padding_side_layout"
+			android:paddingStart="@dimen/image_view_padding_side_layout"
+			android:paddingRight="@dimen/image_view_padding_side_layout"
+			android:paddingEnd="@dimen/image_view_padding_side_layout"
+			android:layout_marginLeft="@dimen/image_view_margin_side_layout"
+			android:layout_marginStart="@dimen/image_view_margin_side_layout"
+			android:layout_marginRight="@dimen/image_view_margin_side_layout"
+			android:layout_marginEnd="@dimen/image_view_margin_side_layout"
+			android:background="@color/image_view_background_color_layout"
+			android:visibility="gone">
+
+			<ImageView
+				android:id="@+id/category_back_arrow"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginEnd="@dimen/horizontal_margin"
+				android:layout_marginRight="@dimen/horizontal_margin"
+				android:padding="@dimen/image_view_padding_label"
+				android:tint="#000000"
+				android:src="?android:attr/homeAsUpIndicator" />
+
+
+            <TextView
+				android:id="@+id/category_header_text"
+				android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:padding="@dimen/image_view_padding_label"
+				android:textSize="17dp"
+				android:textStyle="bold"
+				style="@style/PlayListHeaderTextView"/>
+        </LinearLayout>
+
+		<android.support.v4.widget.SwipeRefreshLayout
+			android:id="@+id/swipeRefreshLayout"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<android.support.v7.widget.RecyclerView
+				android:id="@+id/grid_view"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:scrollbars="vertical"
+				android:clipChildren="true"
+				android:numColumns="@integer/video_grid_num_columns"
+				android:background="@color/grid_view_background"/>
+		</android.support.v4.widget.SwipeRefreshLayout>
+
+		<TextView
+			android:id="@+id/noSafetoonsPlayListِAddedText"
+			android:text="@string/no_public_play_lists_added_text"
+			style="@style/NoPrivateListsMsgTextView" />
+
+	</LinearLayout>
+
+</FrameLayout>

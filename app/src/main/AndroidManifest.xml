@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zaytoona.youtube.safe">
+
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- Mandatory permission -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- [Optional]  Used for database backups and to download videos/thumbnails -->
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" /> <!-- [Optional]  Only used by Safetoons Extra flavor to update the app -->
+    <!-- <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/> -->
+    <!-- [Optional]  If enabled via the preferences, the app will periodically check for new videos published by the subscribed channels -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".app.SafetoonsApp"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".gui.activities.SplashActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- This will allow the app to use update its self (due to security changes in Android 7.0+) -->
+
+        <activity
+            android:name=".gui.activities.MainActivity"
+            android:theme="@style/NoActionBarActivityTheme">
+        </activity>
+        <activity
+            android:name=".gui.activities.KidMainActivity"
+            android:theme="@style/NoActionBarActivityTheme">
+        </activity>
+
+        <activity android:name=".gui.activities.PublicPlayListsImportActivity"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        </activity>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity
+            android:name=".gui.activities.YouTubePlayerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/VideoPlayerActivityTheme">
+        </activity>
+
+        <activity
+            android:name=".gui.activities.PreferencesActivity"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+
+        <activity
+            android:name=".gui.activities.ThumbnailViewerActivity"
+            android:theme="@style/NoActionBarActivityTheme" /> <!-- <service android:name=".businessobjects.FeedUpdaterService"/> -->
+
+        <activity
+            android:name=".gui.activities.PermissionsActivity"
+            android:theme="@style/TransparentActivity" />
+        <activity android:name=".gui.activities.CustomPinActivity" />
+
+        <service android:name=".services.SafetoonsFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name=".receivers.SafetoonsReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

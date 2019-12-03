@@ -1,0 +1,4 @@
+include ':app', ':pincodelibrary', ':expandablecheckrecyclerview', ':expandablerecyclerview', ':AndroidRate'
+project(':expandablecheckrecyclerview').projectDir = new File('expandable-recycler-view-1.4/expandablecheckrecyclerview')
+project(':expandablerecyclerview').projectDir = new File('expandable-recycler-view-1.4/expandablerecyclerview')
+project(':AndroidRate').projectDir = new File('Android Rate')

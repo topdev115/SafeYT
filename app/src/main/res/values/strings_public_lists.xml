@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="public_list_list_type">External Channel</string>
+
+    <string name="public_list_visible_to_kids_msg">External Channel is now visible to kids.</string>
+    <string name="public_list_not_visible_to_kids_msg">External Channel is now NOT visible to kids.</string>
+
+    <string name="no_public_lists_added_text">You haven\'t added any External Channel yet.\n\nOnce you do, they will show up here.</string>
+
+</resources>

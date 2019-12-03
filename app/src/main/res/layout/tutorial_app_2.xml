@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<ImageView
+		app:srcCompat="@drawable/banner_tut"
+		android:layout_height="0dp"
+		android:layout_weight="1"
+		android:layout_width="match_parent"
+		android:scaleType="fitXY"
+		/>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="@integer/banner_height_weight"
+		android:orientation="vertical">
+		<TextView
+			android:text="@string/tutorial_app_slide_2_title"
+			android:layout_height="0dp"
+			android:layout_weight="1"
+			android:layout_width="match_parent"
+			android:gravity="center"
+			android:textSize="@dimen/app_tut_text_header"
+			android:textColor="@color/app_tutorial_text"
+			android:textStyle="bold"
+			/>
+
+		<ScrollView
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="7">
+
+			<TextView
+				android:text="@string/tutorial_app_slide_2"
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:textSize="@dimen/app_tut_text"
+				android:textColor="@color/app_tutorial_text"
+				android:padding="@dimen/app_tut_padding_text"
+					/>
+		</ScrollView>
+	</LinearLayout>
+</LinearLayout>

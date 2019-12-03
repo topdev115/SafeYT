@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="report_video">بلغ عن الفيديو</string>
+    <string name="recommend_video">إقترح الفيديو</string>
+
+    <string name="report_video_message">الرجاء إخبارنا أدناه لماذا تعتقد أنه يجب حظر هذا الفيديو.</string>
+    <string name="recommend_video_message">الرجاء إضافة تعليق لماذا تقترح هذا الفيديو.</string>
+
+    <string name="video_reported_msg">تم الإبلاغ عن الفيديو بنجاح.</string>
+    <string name="video_recommended_msg">تم إقتراح الفيديو بنجاح.</string>
+
+</resources>

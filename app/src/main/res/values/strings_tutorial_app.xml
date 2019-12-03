@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="tut_next">Next \></string>
+	<string name="tut_done">Done</string>
+	<string name="tut_skip">Skip</string>
+	<string name="tut_page_counter">%d of %d</string>
+
+	<string name="tutorial_app_slide_1_title">Welcome to Safetoons!</string>
+
+	<string name="tutorial_app_slide_1">Hi there, parent. Before your child gets started, there are a few things we want you to know about the app and some of the settings available to you.</string>
+
+	<string name="tutorial_app_slide_2_title">Safetoons Channels</string>
+	<string name="tutorial_app_slide_2">Safetoons Channels contain videos that are filtered and categorized by our Content Manager. Everything added to Safetoons Channels is carefully examined to make sure the content is appropriate.
+										\n\nInitially, Safetoons Channels are not loaded to the program, yet during setting up the program, the parent can download all or part of the Safetoons Channels by going to Settings and select Download Safetoons Channels.
+										\n\nOnce Downloaded, Safetoons Channels will show up to the parent and the Kid unless the parent selects to hide them from the Kid.</string>
+
+	<string name="tutorial_app_slide_3_title">Private Lists</string>
+	<string name="tutorial_app_slide_3">Parent can create Private Lists of videos that he\\she finds suitable for the kid. Such videos can be obtained from the Safetoons Channels, Searching (a feature only available for parent) or from the External Channels.
+		\n\nPrivate Lists will by default show up to the Kid but parent can hide them at any time.</string>
+
+	<string name="tutorial_app_slide_4_title">Viewing Periods</string>
+	<string name="tutorial_app_slide_4">The application allow parent to setup Viewing Periods. This includes the day start\\end watching times, the overall daily viewing period and the session viewing period which resets after a specified reset period.
+										\n\nDuring setting up the program, the parent can amend Viewing Period settings by going to Settings and select Viewing Periods.</string>
+
+	<string name="tutorial_app_slide_5_title">Other Features</string>
+	<string name="tutorial_app_slide_5">The application also includes the following features which are available only for parent:
+										\n\n\t1) Lock the application via a Pin Code.
+										\n\n\t2) Report of Inappropriate Videos.
+										\n\n\t3) Recommend a Video.</string>
+
+</resources>

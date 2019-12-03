@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--
+	<item
+		android:id="@+id/download_video"
+		android:title="@string/download"/>
+-->
+	<item
+		android:id="@+id/delete_download"
+		android:title="@string/delete_download"
+		android:visible="false"/>
+
+	<item
+		android:id="@+id/bookmark_video"
+		android:title="@string/bookmark"/>
+	<item
+		android:id="@+id/unbookmark_video"
+		android:title="@string/unbookmark"
+		android:visible="false"/>
+
+	<item
+		android:id="@+id/report_video"
+		android:title="@string/report_video"/>
+
+	<item
+		android:id="@+id/recommend_video"
+		android:title="@string/recommend_video"/>
+
+<!--
+    <item
+        android:id="@+id/block_channel"
+        android:title="@string/block_channel"/>
+-->
+	<item
+		android:id="@+id/private_list_video"
+		android:title="@string/privatelist"/>
+
+	<item
+		android:id="@+id/unprivate_list_video"
+		android:title="@string/unprivatelist"
+		android:visible="false"/>
+</menu>

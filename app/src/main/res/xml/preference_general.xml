@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Safetoons
+  ~ Copyright (C) 2017  Ramon Mifsud
+  ~
+  ~ This program is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation (version 3 of the License).
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="@string/pref_public_play_lists_category">
+
+        <PreferenceScreen
+            android:key="@string/pref_key_download_public_play_lists_from_server"
+            android:title="@string/pref_title_download_public_play_lists_from_server"
+            android:summary="@string/pref_summary_download_public_play_lists_from_server"/>
+    </PreferenceCategory>
+<!--
+    <PreferenceCategory
+        android:title="@string/pref_recommended_channels_category">
+
+        <PreferenceScreen
+            android:key="@string/pref_key_download_recommended_channels_from_server"
+            android:title="@string/pref_title_download_recommended_channels_from_server"
+            android:summary="@string/pref_summary_download_recommended_channels_from_server"/>
+    </PreferenceCategory>
+-->
+    <!--
+    <PreferenceCategory
+        android:title="@string/pref_channels_filter_category">
+
+        <CheckBoxPreference
+            android:key="@string/pref_key_enable_video_blocker"
+            android:title="@string/pref_title_enable_video_blocker"
+            android:summary="@string/pref_summary_enable_video_blocker"
+            android:defaultValue="true"/>
+
+        <Preference
+            android:key="@string/pref_key_channel_blacklist"
+            android:title="@string/pref_title_channel_blacklist"
+            android:summary="@string/pref_summary_channel_blacklist" />
+
+    </PreferenceCategory>
+-->
+    <PreferenceCategory
+        android:title="@string/pref_viewing_periods">
+
+        <CheckBoxPreference
+            android:key="@string/pref_key_enable_viewing_periods"
+            android:title="@string/pref_title_enable_viewing_periods"
+            android:defaultValue="true"/>
+
+        <PreferenceScreen
+            android:key="@string/pref_key_viewing_periods"
+            android:title="@string/pref_title_viewing_periods"
+            android:summary="@string/pref_summary_viewing_periods"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_pin_code">
+
+        <PreferenceScreen
+            android:key="@string/pref_key_change_pin_code"
+            android:title="@string/pref_title_change_pin_code"
+            android:summary="@string/pref_summary_change_pin_code"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_about_category">
+
+        <PreferenceScreen
+            android:key="@string/pref_key_version"
+            android:title="@string/pref_title_version" />
+
+        <PreferenceScreen
+            android:key="@string/pref_key_privacy_website"
+            android:title="@string/pref_title_privacy"
+            android:summary="Safetoons Privacy Policy URL goes here..." />
+
+        <PreferenceScreen
+            android:key="@string/pref_key_website"
+            android:title="@string/pref_title_website"
+            android:summary="Safetoons Website goes here..." />
+
+        <PreferenceScreen
+            android:key="@string/pref_key_support"
+            android:title="@string/pref_title_support"
+            android:summary="@string/pref_summary_support" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

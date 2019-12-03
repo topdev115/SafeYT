@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+
+	<!-- DON'T FORGET TO UPDATE THE TRANSLATION TO HINDI NUMBERS -->
+	<string-array name="viewing_periods_daily_start_time">
+		<!-- <item>00:00</item>   For testing only -->
+		<!-- <item>01:00</item>   For testing only -->
+		<!-- <item>02:00</item>   For testing only -->
+		<!-- <item>03:00</item>   For testing only -->
+		<!-- <item>04:00</item>   For testing only -->
+		<!-- <item>05:00</item>   For testing only -->
+		<item>06:00</item>
+		<item>07:00</item>
+		<item>08:00</item>
+		<item>09:00</item>
+		<item>10:00</item>
+		<item>11:00</item>
+		<item>12:00</item>
+		<item>13:00</item>
+		<item>14:00</item>
+		<item>15:00</item>
+		<item>16:00</item>
+		<item>17:00</item>
+		<item>18:00</item>
+		<item>19:00</item>
+		<item>20:00</item>
+		<!-- <item>21:00</item> -->
+		<!-- <item>22:00</item> -->
+    	<!-- <item>23:00</item> -->
+    	<!-- <item>23:59</item> -->
+</string-array>
+
+<!-- DON'T FORGET TO UPDATE THE TRANSLATION TO HINDI NUMBERS -->
+	<string-array name="viewing_periods_daily_end_time">
+		<!-- <item>00:00</item>   For testing only -->
+		<!-- <item>01:00</item>   For testing only -->
+		<!-- <item>02:00</item>   For testing only -->
+		<!-- <item>03:00</item>   For testing only -->
+		<!-- <item>04:00</item>   For testing only -->
+		<!-- <item>05:00</item>   For testing only -->
+		<!-- <item>06:00</item>   For testing only -->
+		<item>07:00</item>
+		<item>08:00</item>
+		<item>09:00</item>
+		<item>10:00</item>
+		<item>11:00</item>
+		<item>12:00</item>
+		<item>13:00</item>
+		<item>14:00</item>
+		<item>15:00</item>
+		<item>16:00</item>
+		<item>17:00</item>
+		<item>18:00</item>
+		<item>19:00</item>
+		<item>20:00</item>
+		<item>21:00</item>
+		<!-- <item>22:00</item> -->
+		<!-- <item>23:00</item> -->
+		<!-- <item>23:59</item> -->
+	</string-array>
+
+	<!-- DON'T FORGET TO UPDATE THE TRANSLATION TO HINDI NUMBERS -->
+	<string-array name="viewing_periods_max_daily_period">
+		<!-- <item>2</item>     2 mins. For testing only -->
+		<!-- <item>5</item>     5 mins. -->
+		<!-- <item>10</item>    10 mins. -->
+		<!-- <item>15</item>    15 mins. -->
+		<!-- <item>20</item>    20 mins. -->
+		<item>30</item>   		<!--  30 mins. -->
+		<!-- <item>40</item>    40 mins. -->
+		<!-- <item>50</item>    50 mins. -->
+		<item>60</item>    		<!-- 1 hour -->
+		<!-- <item>75</item>    1 hour 15 mins. -->
+		<item>90</item>	  		<!-- 1 hour 30 mins. -->
+		<item>120</item>  		<!-- 2 hours -->
+		<!-- <item>150</item>   2 hours 30 mins. -->
+		<item>180</item>  		<!-- 3 hours -->
+		<item>240</item>  		<!-- 4 hours -->
+		<!-- <item>300</item>  	5 hours -->
+		<!-- <item>360</item>   6 hours -->
+		<!-- <item>420</item>   7 hours -->
+	</string-array>
+
+	<!-- DON'T FORGET TO UPDATE THE TRANSLATION TO HINDI NUMBERS -->
+	<string-array name="viewing_periods_max_session_period">
+		<!-- <item>2</item>     2 mins. For testing only -->
+		<!-- <item>5</item>     5 mins. -->
+		<!-- <item>10</item>    10 mins. -->
+		<item>15</item>   		<!--  15 mins. -->
+		<item>20</item>   		<!--  20 mins. -->
+		<item>30</item>   		<!--  30 mins. -->
+		<!-- <item>40</item>    40 mins. -->
+		<!-- <item>50</item>    50 mins. -->
+		<item>60</item>   		<!-- 1 hour -->
+		<item>75</item>	  		<!-- 1 hour 15 mins. -->
+		<!-- <item>90</item>	1 hour 30 mins. -->
+		<!-- <item>120</item>   2 hours -->
+		<!-- <item>150</item>   2 hours 30 mins. -->
+		<!-- <item>180</item>   3 hours -->
+		<!-- <item>240</item>   4 hours -->
+		<!-- <item>300</item>   5 hours -->
+		<!-- <item>360</item>   6 hours -->
+		<!-- <item>420</item>   7 hours -->
+	</string-array>
+
+	<!-- DON'T FORGET TO UPDATE THE TRANSLATION TO HINDI NUMBERS -->
+	<string-array name="viewing_periods_session_resets_after_values_list">
+		<!-- <item>5</item>     5 mins. -->
+		<!-- <item>10</item>    10 mins. -->
+		<item>15</item>   		<!--  15 mins. -->
+		<!-- <item>20</item>    20 mins. -->
+		<item>30</item>   		<!--  30 mins. -->
+		<!-- <item>40</item>    40 mins. -->
+		<!-- <item>50</item>    50 mins. -->
+		<item>60</item>   		<!-- 1 hour -->
+		<!-- <item>75</item>	 1 hour 15 mins. -->
+		<item>90</item>	  		<!-- 1 hour 30 mins. -->
+		<item>120</item>  		<!-- 2 hours -->
+		<!--<item>150</item>  	2 hours 30 mins. -->
+		<item>180</item>  		<!-- 3 hours -->
+		<item>240</item>  		<!-- 4 hours -->
+		<item>300</item>  		<!-- 5 hours -->
+		<item>360</item>  		<!-- 6 hours -->
+		<!--<item>420</item>     7 hours -->
+	</string-array>
+</resources>

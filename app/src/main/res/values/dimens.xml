@@ -1,0 +1,53 @@
+<resources>
+	<bool name="is_tablet">false</bool>
+
+	<dimen name="top_level_comment_thumbnail_width">60dp</dimen>
+	<dimen name="child_comment_thumbnail_width">42dp</dimen>
+
+	<dimen name="description_drawer_height">280dp</dimen>
+	<dimen name="comments_drawer_width">300dp</dimen>
+	<dimen name="tutorial_hand_gesture_image_width">100dp</dimen>
+
+	<dimen name="video_grid_progress_bar_top_margin">50dp</dimen>
+	<dimen name="fab_margin">16dp</dimen>
+
+	<dimen name="list_item_height">48dp</dimen>
+	<dimen name="horizontal_margin">16dp</dimen>
+	<dimen name="list_item_start_margin">72dp</dimen>
+
+	<!-- Header of tab fragments in Parent Mode -->
+	<dimen name="image_view_width">47dp</dimen>
+	<dimen name="image_view_padding_side">8dp</dimen>
+	<dimen name="image_view_padding_side_delete">10dp</dimen>
+	<dimen name="image_view_padding_side_remove">9dp</dimen>
+
+	<dimen name="image_view_padding_top_layout">8dp</dimen>
+	<dimen name="image_view_padding_bottom_layout">2dp</dimen>
+	<dimen name="image_view_padding_side_layout">4dp</dimen>
+
+	<dimen name="image_view_margin_side_layout">3dp</dimen>
+
+	<dimen name="image_view_padding_top_label">30dp</dimen>
+	<dimen name="image_view_padding_label">8dp</dimen>
+
+	<dimen name="toolbar_title_start_padding">24dp</dimen>
+
+	<dimen name="list_item_multi_check__start_end_margin">48dp</dimen>
+
+	<!-- Welcome Fragment -->
+	<dimen name="welcome_text_header">20dp</dimen>
+	<dimen name="welcome_text">15dp</dimen>
+	<dimen name="welcome_padding_text">12dp</dimen>
+	<dimen name="welcome_padding_layout_sides">20dp</dimen>
+	<dimen name="welcome_margin_text_header_top">20dp</dimen>
+
+	<!-- App Tutorial -->
+	<dimen name="app_tut_text_header">20dp</dimen>
+	<dimen name="app_tut_text">15dp</dimen>
+	<dimen name="app_tut_padding_text">12dp</dimen>
+
+	<!-- Parent Page Header -->
+	<dimen name="app_parent_page_header_text">18dp</dimen>
+	<dimen name="app_parent_page_header_text_height">25dp</dimen>
+
+</resources>

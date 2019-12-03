@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="public_play_list_list_type">قناة Safetoons</string>
+    <string name="remove_public_play_list">حذف قناة Safetoons</string>
+
+    <string name="public_play_list_confirm_remove_msg">سيؤدي ذلك إلى إزالة قناة Safetoons من هذا الجهاز. يمكنك استعادتها من خادم Safetoons في أي وقت عن طريق الإعدادات. هل ترغب في المتابعة؟</string>
+
+    <string name="public_play_list_visible_to_kids_msg">قناة Safetoons الآن مرئية للأطفال.</string>
+    <string name="public_play_list_not_visible_to_kids_msg">قناة Safetoons الآن غير مرئية للأطفال.</string>
+
+    <string name="no_public_play_lists_added_text">لم تقم بإضافة أي قناة Safetoons حتى الآن.\n\n بمجرد قيامك بذلك، ستظهر هنا.</string>
+
+</resources>

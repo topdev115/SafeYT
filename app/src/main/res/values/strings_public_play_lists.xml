@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="public_play_list_list_type">Safetoons Channel</string>
+    <string name="remove_public_play_list">Remove Safetoons Channel</string>
+
+    <string name="public_play_list_confirm_remove_msg">This will remove the Safetoons Channel from this device. You can get it back from the Safetoons Server at any time from Settings. Do you wish to proceed?</string>
+
+    <string name="public_play_list_visible_to_kids_msg">Safetoons Channel is now visible to kids.</string>
+    <string name="public_play_list_not_visible_to_kids_msg">Safetoons Channel is now NOT visible to kids.</string>
+
+    <string name="no_public_play_lists_added_text">You haven\'t added any Safetoons Channel yet.\n\nOnce you do, they will show up here.</string>
+
+</resources>

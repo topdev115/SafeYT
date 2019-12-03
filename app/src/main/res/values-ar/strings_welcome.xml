@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="welcome">مرحبا</string>
+
+	<string name="welcome_text">ضع المساعدة هنا.</string>
+</resources>

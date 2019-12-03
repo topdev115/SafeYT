@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:background="#FFFFFF"
+		android:paddingLeft="@dimen/welcome_padding_layout_sides"
+		android:paddingStart="@dimen/welcome_padding_layout_sides"
+		android:paddingRight="@dimen/welcome_padding_layout_sides"
+		android:paddingEnd="@dimen/welcome_padding_layout_sides">
+
+		<include
+			layout="@layout/videos_gridview"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:visibility="gone"/>
+
+
+		<TextView
+			android:id="@+id/welcomeText"
+			android:text="@string/welcome_text"
+			style="@style/NoBookmarksMsgTextView"
+			android:visibility="gone"/>
+
+		<TextView
+			android:text="@string/tutorial_app_slide_1_title"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:textSize="@dimen/welcome_text_header"
+			android:textColor="@color/welcome_text"
+			android:textStyle="bold"
+			android:layout_marginTop="@dimen/welcome_margin_text_header_top"
+			/>
+
+		<TextView
+			android:text="@string/tutorial_app_slide_1"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:textSize="@dimen/welcome_text"
+			android:textColor="@color/welcome_text"
+			android:padding="@dimen/welcome_padding_text"
+			/>
+
+		<TextView
+			android:text="@string/tutorial_app_slide_2_title"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:textSize="@dimen/welcome_text_header"
+			android:textColor="@color/welcome_text"
+			android:textStyle="bold"
+			android:layout_marginTop="@dimen/welcome_margin_text_header_top"
+			/>
+
+		<TextView
+			android:text="@string/tutorial_app_slide_2"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:textSize="@dimen/welcome_text"
+			android:textColor="@color/welcome_text"
+			android:padding="@dimen/welcome_padding_text"
+			/>
+
+		<TextView
+			android:text="@string/tutorial_app_slide_3_title"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:textSize="@dimen/welcome_text_header"
+			android:textColor="@color/welcome_text"
+			android:textStyle="bold"
+			android:layout_marginTop="@dimen/welcome_margin_text_header_top"
+			/>
+
+		<TextView
+			android:text="@string/tutorial_app_slide_3"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:textSize="@dimen/welcome_text"
+			android:textColor="@color/welcome_text"
+			android:padding="@dimen/welcome_padding_text"
+			/>
+		<!--
+                <TextView
+                    android:text="@string/tutorial_app_slide_4_title"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:textSize="@dimen/welcome_text_header"
+                    android:textColor="@color/welcome_text"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/welcome_margin_text_header_top"
+                    />
+
+                <TextView
+                    android:text="@string/tutorial_app_slide_4"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:textSize="@dimen/welcome_text"
+                    android:textColor="@color/welcome_text"
+                    android:padding="@dimen/welcome_padding_text"
+                    />
+        -->
+		<TextView
+			android:text="@string/tutorial_app_slide_4_title"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:textSize="@dimen/welcome_text_header"
+			android:textColor="@color/welcome_text"
+			android:textStyle="bold"
+			android:layout_marginTop="@dimen/welcome_margin_text_header_top"
+			/>
+
+		<TextView
+			android:text="@string/tutorial_app_slide_4"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:textSize="@dimen/welcome_text"
+			android:textColor="@color/welcome_text"
+			android:padding="@dimen/welcome_padding_text"
+			/>
+
+		<TextView
+			android:text="@string/tutorial_app_slide_5_title"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:textSize="@dimen/welcome_text_header"
+			android:textColor="@color/welcome_text"
+			android:textStyle="bold"
+			android:layout_marginTop="@dimen/welcome_margin_text_header_top"
+			/>
+
+		<TextView
+			android:text="@string/tutorial_app_slide_5"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:textSize="@dimen/welcome_text"
+			android:textColor="@color/welcome_text"
+			android:padding="@dimen/welcome_padding_text"
+			/>
+	</LinearLayout>
+</android.support.v4.widget.NestedScrollView>

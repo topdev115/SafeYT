@@ -1,0 +1,106 @@
+{
+  "device-users" : {
+    "eb6e71bf34c0e21a" : {
+      "uids" : {
+        "1LpKweLU6YP9JWNnN8szZsF8Ney1" : {
+          "dateTime" : "2019/01/04 15:47:08",
+          "deviceId" : "eb6e71bf34c0e21a",
+          "passCode" : "dbe7b9b17929bf51bc45a9709e2d8cb784cec965660b2e3c3698d3008ac773ee"
+        },
+        "5YOOaxG1kMYdwlCuXTjfSn8q5642" : {
+          "dateTime" : "2019/01/04 15:35:41",
+          "deviceId" : "eb6e71bf34c0e21a",
+          "passCode" : "c679674855d2e2c38a2fcd486821eeef0b57b06e385b9b82b2ac42ae6ba4e150"
+        },
+        "9AOUYKgyeDfQoSA7HNapDl8fBQJ3" : {
+          "dateTime" : "2019/01/04 15:17:23",
+          "deviceId" : "eb6e71bf34c0e21a"
+        },
+        "XhpLBRNYpgbNHA8BXNEhSnI12xA3" : {
+          "dateTime" : "2019/01/04 15:28:23",
+          "deviceId" : "eb6e71bf34c0e21a"
+        },
+        "YAfjvU1svPYaq8NTQ9zETy5KrTi1" : {
+          "dateTime" : "2019/01/04 15:15:59",
+          "deviceId" : "eb6e71bf34c0e21a"
+        },
+        "YgJrfKMV2ld8lN37ZDLlRcZ9Vjx2" : {
+          "dateTime" : "2019/01/04 16:27:48",
+          "deviceId" : "eb6e71bf34c0e21a",
+          "passCode" : "6062a20e263f72c1673a2f27d18b73209fbd2c97ac30204fa4de118a9d81961f"
+        },
+        "bPd2vSrxardzCLtCVTbIqnajppV2" : {
+          "dateTime" : "2019/01/04 16:35:33",
+          "deviceId" : "eb6e71bf34c0e21a",
+          "passCode" : "86a395c0dc37fccf0c0be986f1961b610562763b75df363bd52b7f9305fe42df"
+        },
+        "tT72VhPuySexUFh4rfhre1YgMZ43" : {
+          "dateTime" : "2019/01/04 15:16:37",
+          "deviceId" : "eb6e71bf34c0e21a"
+        },
+        "z2qkfP3MH9bwSlHUahCqO4N7Ysj2" : {
+          "dateTime" : "2019/01/04 15:32:06",
+          "deviceId" : "eb6e71bf34c0e21a",
+          "passCode" : "c679674855d2e2c38a2fcd486821eeef0b57b06e385b9b82b2ac42ae6ba4e150"
+        }
+      }
+    }
+  },
+  "public-play-lists" : {
+    "PLH9OQZVrsslGb8_CSLuYClUt7kjiQruLL" : {
+      "title" : "برمجة الآيفون"
+    },
+    "PLtNzZ-kyZQQBgqAZU3-zcg8pINtDX6-s6" : {
+      "title" : "الأمير تميم البرغوثي"
+    },
+    "PLtNzZ-kyZQQCFUdbBVusWW0jd5g9ONyFY" : {
+      "title" : "محمد مهدي الجواهري"
+    }
+  },
+  "recommended-videos" : {
+    "-LVNu0ob8-gWlEoYIiRP" : {
+      "date" : "2019-01-04 12:48:08",
+      "recommendedVideo" : "https://youtu.be/JuqQUP0pnZY",
+      "recommender" : "",
+      "recommendingComment" : ""
+    },
+    "-LVNu706PpvoGQiQ0xGO" : {
+      "date" : "2019-01-04 12:48:33",
+      "recommendedVideo" : "https://youtu.be/Ulp1Kimblg0",
+      "recommender" : "",
+      "recommendingComment" : "جميل"
+    },
+    "-LVOYCm3E_yUkYj1zMoy" : {
+      "date" : "2019-01-04 15:48:05",
+      "recommendedVideo" : "https://youtu.be/JuqQUP0pnZY",
+      "recommender" : "",
+      "recommendingComment" : "حلو"
+    },
+    "-LVOhFoMgIggLKSgrymf" : {
+      "date" : "2019-01-04 16:31:59",
+      "recommendedVideo" : "https://youtu.be/JuqQUP0pnZY",
+      "recommender" : "",
+      "recommendingComment" : ""
+    }
+  },
+  "reported-videos" : {
+    "-LVNr3KHN2heGySUL_hR" : {
+      "date" : "2019-01-04 12:35:12",
+      "reportedVideo" : "https://youtu.be/JuqQUP0pnZY",
+      "reporter" : "",
+      "reportingReason" : "Sexual Content"
+    },
+    "-LVOYOVb2bRUKlQs4ZwH" : {
+      "date" : "2019-01-04 15:48:53",
+      "reportedVideo" : "https://youtu.be/JuqQUP0pnZY",
+      "reporter" : "",
+      "reportingReason" : "بايخ جدا"
+    },
+    "-LVOhOpstjkevzp33dQI" : {
+      "date" : "2019-01-04 16:32:36",
+      "reportedVideo" : "https://youtu.be/oIJ_-NKib7s",
+      "reporter" : "",
+      "reportingReason" : "باد"
+    }
+  }
+}

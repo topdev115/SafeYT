@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="public_list_list_type">قناة خارجية</string>
+
+    <string name="public_list_visible_to_kids_msg">القناة الخارجية الآن مرئية للأطفال.</string>
+    <string name="public_list_not_visible_to_kids_msg">القناة الخارجية الآن غير مرئية للأطفال.</string>
+
+    <string name="no_public_lists_added_text">لم تقم بإضافة أي قناة خارجية حتى الآن.\n\n بمجرد قيامك بذلك، ستظهر هنا.</string>
+
+</resources>

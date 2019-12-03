@@ -1,0 +1,28 @@
+{
+  "rules": {
+    "users": {
+      "$uid": {
+        ".read": "auth != null && auth.uid == $uid",
+          ".write": "auth != null"
+      }
+    },
+    "device-users": {
+      "$deviceid": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    },
+    "public-play-lists": {
+    	".read": "auth != null",
+      ".write": "auth.token.admin == true || auth.token.manager == true"
+    },
+    "recommended-videos": {
+			".read": "auth.token.admin == true || auth.token.manager == true",
+    	".write": "auth != null"
+    },
+    "reported-videos": {
+			".read": "auth.token.admin == true || auth.token.manager == true",
+    	".write": "auth != null"
+    }
+  }
+}

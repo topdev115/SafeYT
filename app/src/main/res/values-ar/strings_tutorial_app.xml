@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="tut_next">التالي \></string>
+	<string name="tut_done">تم</string>
+	<string name="tut_skip">تخطى</string>
+	<string name="tut_page_counter">%d من %d</string>
+
+	<string name="tutorial_app_slide_1_title">مرحبا إلى Safetoons!</string>
+
+	<string name="tutorial_app_slide_1">مرحبًا بالوالد.\n\n قبل أن يبدأ طفلك باستخدام التطبيق، هناك بعض الأشياء التي نريد منك أن تعرفها عن التطبيق وبعض الإعدادات المتاحة لك.</string>
+
+	<string name="tutorial_app_slide_2_title">قنوات Safetoons</string>
+	<string name="tutorial_app_slide_2">تحتوي قنوات Safetoons على مقاطع فيديو تمت تصفيتها وتصنيفها بواسطة مدير المحتوى لدينا. كل شيء يضاف إلى قنوات Safetoons يتم فحصه بعناية للتأكد من أن المحتوى مناسب.
+										\n\nعند تثبيت البرنامج لا يتم تحميل قنوات Safetoons بشكل مسبق، ولكن أثناء إعداد البرنامج، يمكن للوالد تنزيل كل أو جزء من قنوات Safetoons بالانتقال إلى الإعدادات واختيار تنزيل قنوات Safetoons.
+										\n\nبمجرد تنزيل قنوات Safetoons، ستظهر عند الوالد والطفل إلا إذا اختار الوالد إخفائها عن الطفل.</string>
+
+
+	<string name="tutorial_app_slide_3_title">القوائم الخاصة</string>
+	<string name="tutorial_app_slide_3">يمكن للوالدين إنشاء قوائم خاصة لمقاطع فيديو التي يجدانها مناسبة للطفل.  يمكن الحصول على مقاطع الفيديو هذه من قنوات Safetoons أو البحث (ميزة متوفرة فقط للوالدين) أو من القنوات الخارجية.
+										\n\n ستظهر القوائم الخاصة مباشرة للطفل ولكن يمكن للوالدين إخفاءها في أي وقت.</string>
+
+	<string name="tutorial_app_slide_4_title">فترات المشاهدة</string>
+	<string name="tutorial_app_slide_4">يسمح التطبيق للوالدين بتحديد فترات المشاهدة. يتضمن ذلك أوقات بداية ونهاية المشاهدة خلال اليوم، وفترة المشاهدة اليومية الإجمالية وفترة مشاهدة الجلسة الواحدة التي يتم إعادة احتسابها بعد إنقضاء فترة محددة.
+									\n\nأثناء إعداد البرنامج، يمكن للوالد تعديل إعدادات فترات المشاهدة بالانتقال إلى الإعدادات واختيار فترات المشاهدة.</string>
+
+	<string name="tutorial_app_slide_5_title">الميزات الأخرى</string>
+	<string name="tutorial_app_slide_5">يشتمل التطبيق أيضًا على الميزات التالية المتوفرة فقط للوالدين:
+										\n\n\t1) قفل التطبيق عبر رمز التعريف الشخصي.
+										\n\n\t2) التبليغ عن مقاطع الفيديو الغير لائقة.
+										\n\n\t3) التوصية بمقاطع فيديو.</string>
+
+</resources>

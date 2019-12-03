@@ -1,0 +1,7 @@
+<resources>
+    <string name="rate_dialog_title">قيم هذا البرنامج</string>
+    <string name="rate_dialog_message">إذا أعجبك البرنامج، هل تمانع في تقييمه؟ لن يستغرق ذلك أكثر من دقيقة. شكرا لدعمكم لنا!</string>
+    <string name="rate_dialog_ok">قيم الآن</string>
+    <string name="rate_dialog_cancel">ذكرني لاحقا</string>
+    <string name="rate_dialog_no">لا أرغب، شكرا</string>
+</resources>

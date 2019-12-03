@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	xmlns:custom="http://schemas.android.com/tools"
+	android:orientation="vertical"
+	android:fitsSystemWindows="true">
+
+	<android.support.design.widget.AppBarLayout
+		android:layout_width="match_parent"
+		android:layout_weight="1"
+		android:layout_height="0dp">
+
+		<FrameLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			app:layout_scrollFlags="scroll|enterAlways">
+
+			<!-- BANNER IMAGE -->
+			<ImageView
+				android:id="@+id/playlist_banner_image_view"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_alignParentTop="true"
+				android:adjustViewBounds="true"
+				android:scaleType="fitXY"
+				android:src="@drawable/banner_default"
+				android:tint="#14000000"
+				custom:defaultImage="@drawable/banner_default"/>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+
+				<!-- TOOLBAR / ACTIONBAR -->
+				<android.support.v7.widget.Toolbar
+					android:id="@+id/toolbar"
+					android:layout_width="match_parent"
+					android:layout_height="?attr/actionBarSize"
+					android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
+
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:visibility="invisible">
+
+					<!-- PLAYLIST THUMBNAIL -->
+					<ImageView
+						android:id="@+id/playlist_thumbnail_image_view"
+						android:layout_width="97dp"
+						android:layout_height="wrap_content"
+						android:layout_centerVertical="true"
+						android:adjustViewBounds="true"
+						android:padding="16dp"
+						android:scaleType="fitXY"
+						android:src="@drawable/channel_thumbnail_default"/>
+
+					<!-- PLAYLIST TITLE -->
+					<TextView
+						android:id="@+id/playlist_title_text_view"
+						android:layout_toRightOf="@+id/playlist_thumbnail_image_view"
+						android:layout_centerVertical="true"
+						android:gravity="center_vertical"
+						android:drawableLeft="@drawable/ic_playlists"
+						android:text="Playlist Title"
+						style="@style/PlaylistTitleTextView"/>
+
+				</RelativeLayout>
+
+
+			</LinearLayout>
+
+		</FrameLayout>
+
+	</android.support.design.widget.AppBarLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_weight="@integer/banner_height_weight"
+		android:layout_height="0dp"
+		android:orientation="vertical">
+		<!-- PUBLIC LIST HEADER -->
+		<RelativeLayout
+			android:id="@+id/public_play_list_header"
+			android:visibility="gone"
+			android:paddingTop="@dimen/image_view_padding_top_layout"
+			android:paddingBottom="@dimen/image_view_padding_bottom_layout"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:paddingLeft="@dimen/image_view_padding_side_layout"
+			android:paddingStart="@dimen/image_view_padding_side_layout"
+			android:paddingRight="@dimen/image_view_padding_side_layout"
+			android:paddingEnd="@dimen/image_view_padding_side_layout"
+			android:layout_marginLeft="@dimen/image_view_margin_side_layout"
+			android:layout_marginStart="@dimen/image_view_margin_side_layout"
+			android:layout_marginRight="@dimen/image_view_margin_side_layout"
+			android:layout_marginEnd="@dimen/image_view_margin_side_layout"
+			android:background="@color/image_view_background_color_layout"
+			android:orientation="horizontal">
+
+			<!-- LIST TYPE TEXT VIEW -->
+			<TextView
+				android:id="@+id/public_play_list_label_text_view"
+				android:padding="@dimen/image_view_padding_label"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:textStyle="bold"
+				android:layout_gravity="start"
+				android:layout_centerVertical="true"
+				android:textSize="16dp"
+				style="@style/PlayListHeaderTextView"
+				android:text="@string/public_play_list_list_type"/>
+
+			<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentRight="true"
+				android:layout_alignParentEnd="true"
+				android:orientation="horizontal">
+
+				<!-- SHOW\HIDE PUBLIC PLAY LIST BUTTON -->
+				<ImageView
+					android:id="@+id/public_play_list_show_hide_image"
+					android:layout_width="@dimen/image_view_width"
+					android:layout_height="wrap_content"
+					android:layout_centerVertical="true"
+					android:adjustViewBounds="true"
+					android:layout_gravity="center_horizontal"
+					android:paddingLeft="@dimen/image_view_padding_side"
+					android:paddingStart="@dimen/image_view_padding_side"
+					android:paddingRight="@dimen/image_view_padding_side"
+					android:paddingEnd="@dimen/image_view_padding_side"
+					android:scaleType="fitXY"
+					android:src="@drawable/ic_show_black"/>
+
+				<!-- REMOVE PUBLIC PLAY LIST BUTTON -->
+				<ImageView
+					android:id="@+id/public_play_list_remove_image"
+					android:layout_width="@dimen/image_view_width"
+					android:layout_height="wrap_content"
+					android:layout_centerVertical="true"
+					android:layout_gravity="end"
+					android:adjustViewBounds="true"
+					android:paddingLeft="@dimen/image_view_padding_side_remove"
+					android:paddingStart="@dimen/image_view_padding_side_remove"
+					android:paddingRight="@dimen/image_view_padding_side_remove"
+					android:paddingEnd="@dimen/image_view_padding_side_remove"
+					android:scaleType="fitXY"
+					android:src="@drawable/ic_remove_red"/>
+
+				<!-- DOWNLOAD ALL PUBLIC PLAY LIST BUTTON -->
+				<!--
+				<Button
+					android:id="@+id/public_play_list_download_all_button"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:text="@string/public_play_list_download_all_button" />
+				-->
+			</LinearLayout>
+
+		</RelativeLayout>
+
+		<!-- PRIVATE LIST HEADER -->
+		<RelativeLayout
+			android:id="@+id/private_list_header"
+			android:visibility="gone"
+			android:paddingTop="@dimen/image_view_padding_top_layout"
+			android:paddingBottom="@dimen/image_view_padding_bottom_layout"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:paddingLeft="@dimen/image_view_padding_side_layout"
+			android:paddingStart="@dimen/image_view_padding_side_layout"
+			android:paddingRight="@dimen/image_view_padding_side_layout"
+			android:paddingEnd="@dimen/image_view_padding_side_layout"
+			android:layout_marginLeft="@dimen/image_view_margin_side_layout"
+			android:layout_marginStart="@dimen/image_view_margin_side_layout"
+			android:layout_marginRight="@dimen/image_view_margin_side_layout"
+			android:layout_marginEnd="@dimen/image_view_margin_side_layout"
+			android:background="@color/image_view_background_color_layout"
+			android:orientation="horizontal">
+
+			<!-- LIST TYPE TEXT VIEW -->
+			<TextView
+				android:id="@+id/private_list_label_text_view"
+				android:padding="@dimen/image_view_padding_label"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:textStyle="bold"
+				android:layout_gravity="start"
+				android:layout_centerVertical="true"
+				android:textSize="16dp"
+				style="@style/PlayListHeaderTextView"
+				android:text="@string/private_list_list_type"/>
+
+			<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentRight="true"
+				android:layout_alignParentEnd="true"
+				android:orientation="horizontal">
+				<!-- SHOW\HIDE PRIVATE LIST BUTTON -->
+				<ImageView
+					android:id="@+id/private_list_show_hide_image"
+					android:layout_width="@dimen/image_view_width"
+					android:layout_height="wrap_content"
+					android:layout_centerVertical="true"
+					android:adjustViewBounds="true"
+					android:layout_gravity="center_horizontal"
+					android:paddingLeft="@dimen/image_view_padding_side"
+					android:paddingStart="@dimen/image_view_padding_side"
+					android:paddingRight="@dimen/image_view_padding_side"
+					android:paddingEnd="@dimen/image_view_padding_side"
+					android:scaleType="fitXY"
+					android:src="@drawable/ic_show_black"/>
+
+				<!-- DELETE PRIVATE LIST BUTTON -->
+				<ImageView
+					android:id="@+id/private_list_delete_image"
+					android:layout_width="@dimen/image_view_width"
+					android:layout_height="wrap_content"
+					android:layout_centerVertical="true"
+					android:layout_gravity="end"
+					android:adjustViewBounds="true"
+					android:paddingLeft="@dimen/image_view_padding_side_delete"
+					android:paddingStart="@dimen/image_view_padding_side_delete"
+					android:paddingRight="@dimen/image_view_padding_side_delete"
+					android:paddingEnd="@dimen/image_view_padding_side_delete"
+					android:scaleType="fitXY"
+					android:src="@drawable/ic_delete_bin_black"
+					android:tint="@color/list_header_image_view_color_red"/>
+
+				<!-- DOWNLOAD ALL PRIVATE LIST BUTTON -->
+				<!--
+				<Button
+					android:id="@+id/private_list_download_all_button"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:text="@string/private_list_download_all_button" />
+				-->
+
+			</LinearLayout>
+		</RelativeLayout>
+
+		<!-- CHANNEL HEADER -->
+		<RelativeLayout
+			android:id="@+id/public_list_header"
+			android:visibility="gone"
+			android:paddingTop="@dimen/image_view_padding_top_layout"
+			android:paddingBottom="@dimen/image_view_padding_bottom_layout"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:paddingLeft="@dimen/image_view_padding_side_layout"
+			android:paddingStart="@dimen/image_view_padding_side_layout"
+			android:paddingRight="@dimen/image_view_padding_side_layout"
+			android:paddingEnd="@dimen/image_view_padding_side_layout"
+			android:layout_marginLeft="@dimen/image_view_margin_side_layout"
+			android:layout_marginStart="@dimen/image_view_margin_side_layout"
+			android:layout_marginRight="@dimen/image_view_margin_side_layout"
+			android:layout_marginEnd="@dimen/image_view_margin_side_layout"
+			android:background="@color/image_view_background_color_layout"
+			android:orientation="horizontal">
+
+			<!-- LIST TYPE TEXT VIEW -->
+			<TextView
+				android:id="@+id/public_list_label_text_view"
+				android:padding="@dimen/image_view_padding_label"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:textStyle="bold"
+				android:layout_gravity="start"
+				android:layout_centerVertical="true"
+				android:textSize="16dp"
+				style="@style/PlayListHeaderTextView"
+				android:text="@string/public_list_list_type"/>
+
+			<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentRight="true"
+				android:layout_alignParentEnd="true"
+				android:orientation="horizontal">
+
+				<!-- SHOW\HIDE PUBLIC LIST BUTTON -->
+				<ImageView
+					android:id="@+id/public_list_show_hide_image"
+					android:layout_width="@dimen/image_view_width"
+					android:layout_height="wrap_content"
+					android:layout_centerVertical="true"
+					android:adjustViewBounds="true"
+					android:layout_gravity="center_horizontal"
+					android:paddingLeft="@dimen/image_view_padding_side"
+					android:paddingStart="@dimen/image_view_padding_side"
+					android:paddingRight="@dimen/image_view_padding_side"
+					android:paddingEnd="@dimen/image_view_padding_side"
+					android:scaleType="fitXY"
+					android:src="@drawable/ic_show_black"/>
+
+			</LinearLayout>
+		</RelativeLayout>
+		<include
+			layout="@layout/videos_gridview"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+	</LinearLayout>
+</LinearLayout>

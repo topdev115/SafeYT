@@ -1,0 +1,22 @@
+<opml version="1.1">
+	<body>
+		<outline text="YouTube Subscriptions" title="YouTube Subscriptions">
+			<outline text="Gabriel's Lab" title="Gabriel's Lab" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCq2f81GeIbqOz91ZUEf6-kA" />
+			<outline text="Android Developers" title="Android Developers" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCVHFbqXqoYvEWM1Ddxl0QDg" />
+			<outline text="David Tran" title="David Tran" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCvPFGq6luCqAVGiFpzTvkIA" />
+			<outline text="Joe Show - جو شو" title="Joe Show - جو شو" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCVlAsbQEG1yvoAYzt1TEo0Q" />
+			<outline text="Academind" title="Academind" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCSJbGtTlrDami-tDGPUV9-w" />
+			<outline text="The Net Ninja" title="The Net Ninja" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCW5YeuERMmlnqo4oq8vwUpg" />
+			<outline text="Malaket Show" title="Malaket Show" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCLjiHPxUWsNVDn9BVC5ouxQ" />
+			<outline text="Pirple" title="Pirple" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCwwFaFyKAol7hXS87fv30xg" />
+			<outline text="Programming with Mosh" title="Programming with Mosh" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCWv7vMbMWH4-V0ZXdmDpPBA" />
+			<outline text="Flamelink" title="Flamelink" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCPSOGjXxn2he52czV1XsW3g" />
+			<outline text="Google Cloud Platform" title="Google Cloud Platform" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCJS9pqu9BzkAMNTmzNMNhvg" />
+			<outline text="Google Developers" title="Google Developers" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC_x5XG1OV2P6uZZ5FSM9Ttw" />
+			<outline text="CodeWithChris" title="CodeWithChris" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC2D6eRvCeMtcF5OGHf1-trw" />
+			<outline text="zaid channel" title="zaid channel" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC2Fkaz6V6k4z7FwSLtwv7_A" />
+			<outline text="TheRaspberryPiGuy" title="TheRaspberryPiGuy" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCfY8sl5Q6VKndz0nLaGygPw" />
+			<outline text="Firebase" title="Firebase" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCP4bf6IHJJQehibu6ai__cg" />
+		</outline>
+	</body>
+</opml>

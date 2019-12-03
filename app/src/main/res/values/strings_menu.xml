@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="report_video">Report Video</string>
+    <string name="recommend_video">Recommend Video</string>
+
+    <string name="report_video_message">Please tell us below why you think that this video has to be blocked.</string>
+    <string name="recommend_video_message">Please include a recommendation comment.</string>
+
+    <string name="video_reported_msg">Video Reported Successfully.</string>
+    <string name="video_recommended_msg">Video Recommended Successfully.</string>
+
+</resources>

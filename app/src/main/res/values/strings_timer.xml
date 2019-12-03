@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="msg_invalid_viewing_time">Sorry, you can play videos only from %1$s to %2$s.</string>
+    <string name="msg_exceeded_session_viewing_time">Sorry, you exceeded the allowed session watching period. you can watch videos again in %1$d minutes.</string>
+    <string name="msg_exceeded_daily_viewing_time">Sorry, you exceeded the allowed daily watching period.</string>
+
+    <string name="lbl_viewing_periods_dialog_description">Kids can view videos only in specified periods controlled by daily start and end times as well as within a maximum daily\\session viewing periods. When a session period elapses, session viewing resets after the specified time.</string>
+
+    <string name="lbl_daily_viewing_start_time">Viewing Starts At:</string>
+    <string name="lbl_daily_viewing_end_time">Viewing Ends At:</string>
+    <string name="lbl_maximum_daily_viewing_period">Daily Viewing (mins.):</string>
+    <string name="lbl_maximum_session_viewing_period">Session Viewing (mins.):</string>
+    <string name="lbl_session_resets_after_period">Session Reset (mins.):</string>
+
+    <string name="lbl_viewing_periods_settings_modification_warning">Note: Changing Viewing Period settings will reset current viewing progress.</string>
+
+</resources>

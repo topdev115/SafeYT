@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="colorPrimary">#FCFCFC</color>
+	<color name="colorPrimaryDark">#EFEFEF</color>
+	<color name="colorAccent">#26A69A</color>
+
+	<color name="textColorPrimary">#000000</color>
+
+	<color name="safetoons_theme_colour">#000000</color>
+
+	<color name="green_color">#26A600</color>
+
+	<!--
+		Material Dialog Colors
+	-->
+	<color name="dialog_title">#000</color>
+	<color name="dialog_backgound">#FFF</color>
+	<color name="dialog_content_text">#000</color>
+	<color name="dialog_positive_text">@color/colorAccent</color>
+	<color name="dialog_negative_text">@color/colorAccent</color>
+	<color name="dialog_neutral_text">@color/colorAccent</color>
+	<color name="dialog_row_0">#F0F0F0</color>
+	<color name="dialog_row_1">@color/dialog_backgound</color>
+
+
+	<!--
+		Subs Drawer Colours
+	-->
+	<color name="subs_drawer_background">#FCFCFC</color>
+	<drawable name="sub_channel_pressed">@color/colorAccent</drawable>
+	<drawable name="sub_channel">@android:color/transparent</drawable>
+	<color name="subs_text">#000</color>
+
+	<drawable name="subscribe_button">@color/colorAccent</drawable>
+	<drawable name="subscribe_button_pressed">#ff8e44</drawable>
+
+
+	<!--
+		Video (Grid) Cells
+	-->
+	<color name="video_cell_background">#FFFAF8</color>
+	<color name="video_cell_text_main">#000000</color>
+	<color name="video_cell_text_details">#555555</color>
+	<color name="grid_view_background">@color/colorPrimaryDark</color>
+	<color name="popup_menu">#FFFAFAFA</color>  <!-- Identical to @color/background_material_light -->
+
+
+	<!--
+		Video Player Tutorial
+	-->
+	<color name="tutorial_background">@color/colorPrimary</color>
+	<color name="tutorial_swipe_area">#277AA2</color>
+
+
+	<!--
+		Video Player Colours
+	-->
+	<!-- Actionbar background colour ~~ which is the same as com.android.internal.R.layout.media_controller
+				(used to be #BB000000) -->
+	<color name="video_player_hud">#CC000000</color>
+	<color name="video_player_drawer_background">@color/video_player_hud</color>
+	<color name="video_player_drawer_text">#b3b3b3</color>
+
+	<color name="video_desc_like_bar">@color/safetoons_theme_colour</color>
+
+	<!-- Comments -->
+	<color name="comment_background">@color/video_player_hud</color>
+	<color name="comment_text">#b3b3b3</color>
+
+	<!-- Player v2 -->
+	<color name="video_player_v2_hud">#7A000000</color>
+	<color name="video_player_v2_seek_bar">@color/colorAccent</color>
+
+
+	<!--
+		Channel Browser
+	-->
+	<color name="channel_subs">@color/video_cell_text_main</color>
+	<color name="channel_about">@color/video_cell_text_main</color>
+	<color name="channel_subscribers_bkg">#66000000</color>
+
+
+	<!--
+		Subscriptions Feed
+	-->
+	<color name="feed_message_text">#000000</color>
+
+	<!--
+    Header of tab fragments in Parent Mode
+	-->
+	<color name="image_view_background_color_layout">#FFFFFF</color>
+	<color name="list_header_image_view_color_red">#FF0000</color>
+
+	<!--
+    	Welcome Fragment
+	-->
+	<color name="welcome_text">#000000</color>
+
+	<!--
+		Tutorial
+	-->
+	<color name="app_tutorial_text">#000000</color>
+
+	<!--
+		Parent Page Header
+	-->
+	<color name="app_parent_page_header_text">#000000</color>
+
+</resources>

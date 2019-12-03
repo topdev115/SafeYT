@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="next">التالي \></string>
+	<string name="done">تم</string>
+	<string name="skip">تخطى</string>
+	<string name="page_counter">%d من %d</string>
+
+	<string name="tutorial_slide_1">اسحب لليسار لعرض التعليقات.</string>
+	<string name="tutorial_slide_2">اسحب للأعلى لعرض وصف الفيديو.</string>
+	<string name="tutorial_slide_3">اسحب أفقياً للبحث عن الأمام أو الخلف.</string>
+	<string name="tutorial_slide_4">اسحب رأسيًا لضبط مستوى الصوت.</string>
+	<string name="tutorial_slide_5">اسحب رأسيًا لضبط السطوع.</string>
+	<string name="tutorial_slide_6">انقر نقرًا مزدوجًا لإيقاف الفيديو مؤقتًا أو تشغيله.</string>
+</resources>

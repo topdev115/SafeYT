@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="?dialogPreferredPadding"
+    android:paddingEnd="?dialogPreferredPadding"
+    tools:context="com.zaytoona.youtube.safe.gui.activities.CustomPinActivity">
+
+    <LinearLayout
+        android:id="@+id/phoneAuth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pin_code_forget_enter_phone_no_msg"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <com.hbb20.CountryCodePicker
+                android:id="@+id/ccp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:ccp_showNameCode="false"
+                app:ccp_defaultNameCode="JO"
+                app:ccp_autoDetectCountry="true"/>
+
+            <EditText
+                android:id="@+id/phoneText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/pin_code_forget_phone_no_hint"
+                android:inputType="phone"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <android.support.design.button.MaterialButton
+            android:id="@+id/sendButton"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/pin_code_forget_send_code_btn_text"
+            android:textColor="@color/colorAccent"
+            app:backgroundTint="@android:color/white"
+            app:cornerRadius="8dp"
+            app:strokeColor="@color/colorAccent"
+            app:strokeWidth="2dp" />
+
+        <EditText
+            android:id="@+id/codeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/pin_code_forget_code_hint"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <!--
+    <LinearLayout
+        android:id="@+id/phoneAuthBtns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phoneAuth"
+        android:orientation="horizontal">
+-->
+
+
+    <!--
+    </LinearLayout>
+-->
+
+
+</RelativeLayout>

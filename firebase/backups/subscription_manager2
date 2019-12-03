@@ -1,0 +1,11 @@
+<opml version="1.1">
+	<body>
+		<outline text="YouTube Subscriptions" title="YouTube Subscriptions">
+			<outline text="The Net Ninja" title="The Net Ninja" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCW5YeuERMmlnqo4oq8vwUpg" />
+			<outline text="Malaket Show" title="Malaket Show" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCLjiHPxUWsNVDn9BVC5ouxQ" />
+			<outline text="Pirple" title="Pirple" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCwwFaFyKAol7hXS87fv30xg" />
+			<outline text="Programming with Mosh" title="Programming with Mosh" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCWv7vMbMWH4-V0ZXdmDpPBA" />
+			<outline text="Flamelink" title="Flamelink" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCPSOGjXxn2he52czV1XsW3g" />
+		</outline>
+	</body>
+</opml>
